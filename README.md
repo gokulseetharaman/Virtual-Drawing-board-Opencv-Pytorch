@@ -201,6 +201,10 @@ python main.py
 
 * **📝 Word Recognition**: Integrates Tesseract OCR for full-word extraction from the canvas and uses `pyttsx3` for speech output, enhancing accessibility and feedback.
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/cafeb2d5-57a0-4122-86ae-2a0f152ff502"  width="600" alt="Word Prediction Output">
+</div>
+
 * **📈 Visual Results & Evaluation**:
 
   * Confusion matrix and classification report provide insight into the model’s performance across 26 classes.
