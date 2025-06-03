@@ -1,14 +1,10 @@
-Here's a well-structured `README.md` for your **Virtual Board with OpenCV and PyTorch** project:
-
----
-
 # 🎨 Virtual Board with OpenCV and PyTorch
 
 > **A real-time hand gesture-based virtual drawing board powered by CNN (EfficientNet-B0) using PyTorch, MediaPipe, and OpenCV.**
 
-I'm thrilled to present my latest milestone in my deep learning journey! I've crafted a **Convolutional Neural Network (CNN)** using the **EfficientNet-B0 model** to recognize hand-drawn letters (A-Z) on a **virtual board**, leveraging **OpenCV** and **MediaPipe** for real-time hand tracking and **PyTorch** for model training and inference.
+I’m thrilled to present my latest milestone in my deep learning journey! I’ve crafted a Convolutional Neural Network (CNN) using the EfficientNet-B0 model to recognize hand-drawn letters (A-Z) on a virtual board, leveraging OpenCV and MediaPipe for real-time hand tracking and PyTorch for model training and inference. Trained for 25 epochs on the handwriting dataset, this model powers an interactive virtual board for letter and word prediction, achieving a hypothetical validation accuracy of 99%. Blending computer vision and deep learning, this project offers exciting applications in education, communication, and interactive interfaces.
 
-This interactive system allows users to draw letters or words on a virtual canvas via webcam gestures and predicts them in real time with voice feedback for an engaging, hands-free experience.
+The system lets users draw letters or words on a virtual canvas via hand gestures, predicting them in real time with voice feedback for an engaging, hands-free experience.
 
 ---
 
@@ -20,7 +16,7 @@ This interactive system allows users to draw letters or words on a virtual canva
 - **Comprehensive Prediction**: Letter prediction with CNN + word prediction with Tesseract OCR.
 - **High Accuracy**: Hypothetical validation accuracy of **99%**.
 - **Voice Feedback**: Text-to-speech for accessibility and interactivity.
-- **Hugging Face Integration**: Model and dataset available on [Hugging Face](https://huggingface.co/datasets/pittawat/letter_recognition).
+- **Hugging Face Integration**: Model and dataset available on [Hugging Face](https://huggingface.co/itsgokul02/Virtual_Board/tree/main).
 
 ---
 
@@ -64,8 +60,9 @@ cd cnn-virtual-board-opencv-pytorch
 
 # Create and activate virtual environment
 python -m venv venv
-source venv/bin/activate    # Linux/Mac
 venv\Scripts\activate       # Windows
+#source venv/bin/activate    # Linux/Mac
+
 
 # Install dependencies
 pip install -r requirements.txt
